@@ -1,0 +1,93 @@
+/* styles.css */
+
+/* Estilos globais */
+body {
+    background-color: #f0f8ff; /* AliceBlue */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Cabeçalho */
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    color: #4682B4; /* Steel Blue */
+}
+
+.header p {
+    color: #555;
+}
+
+/* Formulário */
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.stButton > button {
+    background-color: #ADD8E6; /* Baby Blue */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+.stButton > button:hover {
+    background-color: #87CEEB; /* Sky Blue */
+    color: white;
+    cursor: pointer;
+}
+
+.stTextInput, .stNumberInput, .stDateInput {
+    margin-bottom: 20px;
+}
+
+/* Dados Salvos */
+.saved-data {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border-left: 5px solid #ADD8E6;
+}
+
+.saved-data h3 {
+    color: #4682B4; /* Steel Blue */
+}
+
+.saved-data p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Rodapé */
+.footer {
+    text-align: center;
+    padding: 10px;
+    color: #aaa;
+    margin-top: 50px;
+}
+
+/* Mensagens de Sucesso e Erro */
+.css-1y4p8pa { /* Classe para st.success */
+    background-color: #d9edf7 !important; /* Azul claro */
+    color: #31708f !important; /* Azul escuro */
+}
+
+.css-1y4p8pa .css-ffhzg2 {
+    color: #31708f !important;
+}
+
+.css-10trblm { /* Classe para st.error */
+    background-color: #f2dede !important; /* Vermelho claro */
+    color: #a94442 !important; /* Vermelho escuro */
+}
+
+.css-10trblm .css-ffhzg2 {
+    color: #a94442 !important;
+}
+
